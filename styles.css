@@ -1,0 +1,33 @@
+p {
+  font-family: 'HanaleiFill-Regular';
+}
+
+.sidebar-image-container {
+  display: flex;
+  background-image: url('../images/eugene-golovesov-to_nuHhOFNs-unsplash.jpg');
+  background-size: 530px 100vh;
+  width: 530px;
+  height: 100vh;
+}
+
+.sidebar-logo-container {
+  font-family: 'HanaleiFill-Regular';
+  font-size: 55px;
+  color: white;
+  margin-top: 280px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(65, 60, 60, 0.7);
+  height: 140px;
+  width: 530px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  height: 120px;
+  width: 100px;
+  padding-right: 20px;
+}
