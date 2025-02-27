@@ -9,14 +9,62 @@
 </head>
 
 <body>
-  <div class="sidebar-image-container">
-    <div class="sidebar-logo-container">
-      <img src="../images/odin-lined.png" class="logo" alt="Odin Logo">Pseudo Sign-up
-
+  <div class="container">
+    <div class="sidebar-image-container">
+      <div class="sidebar-logo-container">
+        <img src="images/odin-lined.png" class="logo" alt="Odin Logo">Pseudo Sign-up
+      </div>
+      <p class="attribution">Photo By <a class="credit"
+          href="https://unsplash.com/@eugene_golovesov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Eugene
+          Golovesov</a> on <a class="credit"
+          href="https://unsplash.com/photos/a-blurry-photo-of-a-bunch-of-lights-to_nuHhOFNs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </p>
     </div>
-  </div>
+    <div class="main-content-container">
+      <div class="nonsense-blurb">This is a fun little login facade where you can pretend you're creating an
+        account.<br>
+        Feel free to pop your totally real details in so you can register for our "services".<br>
+        When you've finished filling in your details, delete them all and start again!<br>
+        They aren't getting sent anywhere anyway! <br>
+        <br>
+        <em id="emphasis"> It's endless fun!</em>
+      </div>
+      <div class="Sign-up">
+        <form action="">
+          <section class="inputs">
+            <h1 class="form-heading">Let's get cracking!</h1>
+            <label for="first-name">
+              FIRST NAME:<input type="text" id="name" name="first-name">
+            </label>
+            <label for="last-name">
+              LAST NAME:<input type="text" id="name" name="last-name">
+            </label>
+            <label for="email">
+              EMAIL:<input type="email" id="email" name="email">
+            </label>
+            <label for="phone-number">
+              PHONE NUMBER:<input type="tel" id="phone" name="phone-number">
+            </label>
+            <label for="password">
+              PASSWORD:<input type="password" id="password" name="password" required>
+            </label>
+            <label for="confirm-password">
+              CONFIRM PASSWORD:<input type="password" id="password" name="confirm-password" required>
+            </label>
+          </section>
+          <div class="sub-content-container">
+            <section class="create-account">
 
-  <div class="main-content-container"></div>
+              <button type="button" class="create-button">Create Account</button>
+              <div>Already have an account?<a class="login-link" href="#">Try to log in</a></div>
+
+            </section>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
 </body>
 
 </html>
